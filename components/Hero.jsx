@@ -19,7 +19,7 @@ const Hero = () => {
           </a>
           <div className="font-bold text-5xl sm:text-6xl md:text-7xl lg:text-8xl richtext">
             <i>
-              The <span className="text-primary">Incident</span>
+              The <span className="text-primary block">Crime</span>
               <h1>Reporting Portal</h1>
             </i>
           </div>
@@ -36,13 +36,13 @@ const Hero = () => {
             magna ad irure adipisicing.
           </p>
           <div className="min-h-xl min-w-full inline-block"></div>
-          <button
-            // href="/"
-            // alt=""
-            className="p-4 flex items-center justify-center text-center min-w-[70%] bg-primary text-bg2 rounded-tl-lg rounded-br-lg cursor-pointer"
+          <Link
+            href="/report_submit"
+            alt=""
+            className="p-4 relative z-50 flex items-center justify-center text-center min-w-[70%] bg-primary text-bg2 rounded-tl-lg rounded-br-lg cursor-pointer"
           >
             Submit a incident
-          </button>
+          </Link>
 
           {/* <form className="border-2 border-black rounded-3xl p-4 flex items-center justify-center relative">
             <input
