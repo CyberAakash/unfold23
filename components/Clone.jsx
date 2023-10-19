@@ -6,7 +6,7 @@ import SuccessMessage from './SuccessMessage';
 
 const Clone = () => {
     const { wallet } = ethos.useWallet();
-    const [nftObjectId, setNftObjectId] = useState<string | null>(null);
+    const [nftObjectId, setNftObjectId] = useState(null);
 
     const clone = useCallback(async () => {
         if (!wallet) return;

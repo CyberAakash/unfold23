@@ -37,7 +37,8 @@ const Hero = () => {
           </p>
           <div className="min-h-xl min-w-full inline-block"></div>
           <Link
-            href="/report_submit"
+            // href="/report_submit"
+            href="/store_data_in_wallet"
             alt=""
             className="p-4 relative z-50 flex items-center justify-center text-center min-w-[70%] bg-primary text-bg2 rounded-tl-lg rounded-br-lg cursor-pointer"
           >

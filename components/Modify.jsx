@@ -5,7 +5,7 @@ import SuccessMessage from './SuccessMessage';
 
 const Modify = () => {
     const { wallet } = ethos.useWallet();
-    const [nftObjectId, setNftObjectId] = useState<string | null>(null);
+    const [nftObjectId, setNftObjectId] = useState(null);
 
     const mintAndModify = useCallback(async () => {
         // if (!wallet) return;
